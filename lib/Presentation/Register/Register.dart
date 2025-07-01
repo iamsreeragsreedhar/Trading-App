@@ -101,10 +101,9 @@ class Register extends StatelessWidget {
                   ),
                   TextfieldCommon(
                     controller: RepasswordController,
-                    label: "Re-Password",
+                    label: " Enter the Re-Password",
                     readOnly: false,
                   ),
-
                   CustomButton(text: "Register", onPressed: () {}),
                   SizedBox(height: 10),
                   Text.rich(
