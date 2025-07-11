@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Presentation/utils/Custombutton.dart';
-import 'package:flutter_application_1/Presentation/utils/Textfieldcommon.dart';
-import 'package:flutter_application_1/Presentation/utils/colorconstant.dart';
-import 'package:flutter_application_1/Presentation/utils/extension.dart';
+import 'package:flutter_application_1/Core/utils/Custombutton.dart';
+import 'package:flutter_application_1/Core/utils/Textfieldcommon.dart';
+import 'package:flutter_application_1/Core/utils/colorconstant.dart';
+import 'package:flutter_application_1/Core/utils/extension.dart';
 import 'package:lottie/lottie.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -39,7 +39,7 @@ class Register extends StatelessWidget {
               ),
             ),
           ),
-
+      
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
@@ -123,7 +123,7 @@ class Register extends StatelessWidget {
                           ),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {
-                              // Navigate to Login page
+                              
                               Navigator.pushNamed(context, '/login');
                             },
                         ),

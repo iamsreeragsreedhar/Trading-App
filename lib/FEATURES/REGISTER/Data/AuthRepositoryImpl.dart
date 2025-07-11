@@ -1,7 +1,9 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_application_1/Domain/Auth_repository.dart';
+import 'package:flutter_application_1/FEATURES/REGISTER/Domain/Auth_repository.dart';
+
+
 
 class AuthRepositoryImpl implements AuthRepository{
 
